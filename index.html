@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+   <title>Formulário</title>
+     <link href="style.css" rel="stylesheet">
+    
+</head>
+<body>
+  <div class = "conteiner">
+    
+    <div class="formConteiner">
+      <h1>RESEARCH FORM FOR XYZ UNIVERSITY
+      </h1>
+      <h2>
+        All students must complete the form.
+
+      </h2><br>
+        <p>
+           <form method="get" action="/cadastro">
+          <input class="formulario" name="name" type="text" placeholder="Name"><br><br>
+          <input class="formulario" name="email" type="text" placeholder="Email"><br><br>
+          <input class="formulario" name="age" type="number" min="10" max="99" placeholder="Age"><br><br>
+        </p><br>
+          <p>Which option best describes your current role?<br>
+            <select class="formulario">
+              <option disabled selected value>Select current role</option> 
+              <option value="student">Student</option>
+              <option value="job">Full Time Job</option>
+              <option value="learner">Full Time Learner</option>
+              <option value="preferNo">Prefer not to say</option>
+              <option value="other">Other</option>
+            </select> 
+          </p><br>
+          <p>
+            Would you recommend our university to a friend?<br><br>
+            <input type="radio" name="yes" value="y">Yes I recommend.<br>
+            <input type="radio" name="maybe" value="m">Maybe.<br>
+            <input type="radio" name="no" value="n">No, I don't recommend.<br>
+           </p><br>
+           <p>
+            what could we improve on? <br>
+            <select class="formulario">
+              <option disabled selected value>Select your opnion</option> 
+              <option value="structure">University Structure</option>
+              <option value="libery">Libery</option>
+              <option value="teach">Teaching Method</option>
+              <option value="research">Graduation Research</option>
+              <option value="other">Other</option>
+            </select>
+            </p><br>
+
+            <p>
+              What is your graduation?<br><br>
+              <input type="radio" name="engineering" value="e">Engineering.<br>
+              <input type="radio" name="architecture" value="a">Architecture.<br>
+              <input type="radio" name="medicine" value="m">Medicine.<br>
+              <input type="radio" name="nursing" value="n">Nursing.<br>
+              <input type="radio" name="nutrition" value="nu">Nutrition.<br>
+              <input type="radio" name="journalism" value="j">Journalism.<br>
+             </p><br>
+
+             <input class="formulario" type="submit">
+        
+
+
+
+
+           </p>
+
+         </form>
+      
+    </div>
+
+  </div>
+    
+</body>
+</html>
